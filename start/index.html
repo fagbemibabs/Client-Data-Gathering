@@ -1,0 +1,233 @@
+﻿
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            background-color: transparent;
+        }
+
+        img {
+            padding: 0px;
+            border: 0px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #1165AC;
+                text-align: center;
+                padding: 14px 10px;
+                text-decoration: none;
+                font-size: 17px;
+                text-transform: uppercase;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .topnav a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+
+            .topnav .icon {
+                display: none;
+            }
+
+        #box1 {
+            /*border: 1px solid red;*/
+        }
+
+        @media only screen and (max-width: 899px) {
+            #img_box {
+            }
+        }
+
+        @media only screen and (min-width: 900px) {
+            #form1, #box1 {
+                /*background-color: red;*/
+                margin-top: -16%;
+                margin-left: -22px;
+                overflow-y: visible;
+                height: 70%;
+                /*border: 2px solid #F00;*/
+            }
+        }
+
+        @media only screen and (max-width: 899px) {
+            #form1, #box1 {
+                margin-top: 0;
+                padding: 0px;
+                position: relative;
+                /*top: +5px;*/
+                margin-top: 0;
+                margin-left: 0;
+                height: 100%;
+                clear: none;
+                /*border: 2px solid yellow;*/
+            }
+        }
+
+        @media only screen and (max-width: 399px) {
+            #form1, #box1 {
+                margin-top: 0;
+                padding: 0;
+                position: relative;
+                /*top: +5px;*/
+                margin-top: 0;
+                margin-left: 0;
+                height: 100%;
+                clear: none;
+                /*border: 2px solid white;*/
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body style="">
+    <div class="container" style="padding:0">
+        <div class="row hidden-xs hidden-sm">
+            <div class="col-md-2"><a href="#home" class=""><img src="images/logo.png" style="width: 60%" /></a></div>
+            <div class="topnav col-md-10" id="myTopnav" style="align-content: center; ">
+
+                <a href="/">Home</a>
+                <a href="/about-us/">About Us</a>
+                <a href="/investment/">Investment</a>
+                <a href="/benefits/">Benefits</a>
+                <a href="/resources/">Resources</a>
+                <a href="/need-a-pal/">Need a PAL?</a>
+                <a href="/contact-us/">Contact Us</a>
+                <a href="https://palrsa.palpensions.com/Account/Login?ReturnUrl=%2f" target="_new">Recapture</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+        </div>
+        <div id="img_box" class="row" style="padding:0;margin:0; object-fit:fill; border">
+            <div class="col-md-12" style="padding:0;padding:0">
+                <!--<img src="images/mobile-banner-with-text.png" style="width:100%;" />-->
+                <!--<img src="images/desktop-banner-with-text.png" style="width:100%;" />-->
+
+                <picture style="width:100%;object-fit:cover; padding:0">
+                    <source media="(max-width: 399px)" srcset="images/mobile-banner-with-text_1.png" style="width:100%;object-fit:fill">
+                    <source media="(max-width: 899px)" srcset="images/mobile-banner-with-text_1.png" style="width:100%;object-fit:fill">
+                    <source media="(min-width: 900px)" srcset="images/desktop-banner-with-text.png" style="width:100%;object-fit:fill">
+                    <img src="images/desktop-banner-with-text.png" width="100" style="width:100%;object-fit:fill">
+                    <!--<img src="images/mobile-banner-with-text_1.png" style="width:100%;object-fit:cover">-->
+                </picture>
+            </div>
+        </div>
+
+        <div id="row_form" class="row">
+            <div class="col-md-1 hidden-sm hidden-xs"></div>
+            <div class="col-md-6">
+
+                <div class="col-md-12" style="padding: 0; overflow-y:hidden">
+                    <div class="col-md-12 hidden-xs hidden-sm" style="">
+
+                        <div class="img-div1" style="display: block; padding: 5px; padding-top: 5%; height: auto; ">
+
+                            <div style="color:#15B2AD; font-weight:bolder; font-size:30px; ">
+                                Over 550,000 Nigerian
+                                professionals trust us
+                                with their pension plans
+                            </div>
+                            <div style="color:#1165AC;  font-weight:normal; font-size:20px;   padding-top:10px; margin-top:10px">
+
+                                PAL Pensions helps them plan their way towards a secure future one month at a time. Wouldn't you want
+                                to be one of them?
+
+                            </div>
+                        </div>
+
+
+
+                        <!--<div class="img-div1" style="display: block; padding: 15px;">
+                            <p style="color: steelblue;">
+
+                            </p>
+                        </div>-->
+                    </div>
+
+                </div>
+
+            </div>
+            <!--<div class="col-md-1">sss</div>-->
+            <div id="form1" class="col-md-4">
+                <!--style=""-->
+                <div id="box1" style="background-color: #15B2AD !important;height:auto; padding: 35px;">
+                    <div class="title" style="color: white">
+                        <h1 style="font-weight:bolder">Get Started</h1>
+
+                        <p style="line-height: 1.6; font-size:22px;">
+                            Request to talk to one of
+                            our pension experts
+                        </p>
+                    </div>
+
+                    <!--<div class="panel-body">-->
+
+                    <div class="form-group">
+                        <input id="FName" name="FName" class="form-control" placeholder="First Name" />
+                    </div>
+                    <div class="form-group">
+                        <input id="LName" name="LName" class="form-control" placeholder="Surname" />
+                    </div>
+                    <div class="form-group">
+                        <input id="Email" name="Email" class="form-control" placeholder="Email" />
+                    </div>
+                    <div class="form-group">
+                        <input id="Phone" name="Phone" class="form-control" placeholder="Phone Number" />
+                    </div>
+                    <div class="form-group">
+                        <input id="Profession" name="Profession" class="form-control" placeholder="Profession" />
+                    </div>
+                    <div class="form-group">
+                        <textarea id="Enquiry" name="Enquiry" class="form-control" rows="4" cols="50" maxlength="100" placeholder="Please enter your enquiry here! (100 words maximum)"></textarea>
+                    </div>
+
+                    <input type="submit" value="Submit" class="btn btn-primary" style="background-color:#1165AC;color:#ffffff; font-size:larger;" />
+
+
+                    <!--</div>-->
+
+                </div>
+            </div>
+
+            <div class="col-md-1 hidden-sm hidden-xs">
+
+            </div>
+        </div>
+
+
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
